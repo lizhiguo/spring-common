@@ -1,0 +1,3 @@
+### Send POST request with json body
+POST http://localhost:9000/send/sendMessage?content=【通信助理】 中国广电提醒您，用户02557940903在2024年04月07日17时16分给您来电，请及时回复。设置视频彩铃，让您的来电等待更精彩。https://vrbt.10099.com.cn/【其他】 更多业务咨询与办理，请拨打客服电话10099（中国广电竭诚为您服务）。&phones=15802134519
+Content-Type: application/json

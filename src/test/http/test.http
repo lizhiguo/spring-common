@@ -1,0 +1,67 @@
+POST http://180.167.231.26:18888/api/gsl/ivr/missCall
+Content-Type: application/json
+
+{
+  "call_cfb": 0,
+  "caller": "1258013002675408",
+  "callid": "asdfasfsdfaklwerqreq",
+  "content": "漏话业务",
+  "mobile": "13002829850",
+  "opertime": "2022-02-02 11:11:11",
+  "wavname": "13002829850"
+}
+
+### 本地
+POST http://localhost:8080/api/gsl/ivr/missCall
+Content-Type: application/json
+
+{
+"call_cfb": 0,
+"caller": "1258013002675408",
+"callid": "asdfasfsdfaklwerqreq",
+"content": "漏话业务",
+"mobile": "13002829850",
+"opertime": "2024-01-12 23:11:11",
+"wavname": "13002829850"
+}
+
+
+###
+POST http://180.167.231.26:18888/api/gsl/ivr/auth
+Content-Type: application/json
+
+{
+  "call_cfb": "111",
+  "called": "222",
+  "caller": "333",
+  "callid": "444",
+  "orgcallee": "555"
+}
+
+
+###
+POST http://localhost:8080/api/gsl/ivr/auth
+Content-Type: application/json
+
+{
+  "call_cfb": "111",
+  "called": "222",
+  "caller": "1258013002675408",
+  "callid": "444",
+  "orgcallee": "555"
+}
+
+### 2024-04-02
+POST http://localhost:8080/api/gsl/ivr/missCall
+Content-Type: application/json
+
+{
+  "call_cfb": 0,
+  "caller": "19279852901",
+  "callid": "asd55-01282257010",
+  "content": "z:/lhtx/20230820/",
+  "mobile": "19279852999",
+  "opertime": "20240128234010",
+  "vip":"301",
+  "wavname": ""
+}
